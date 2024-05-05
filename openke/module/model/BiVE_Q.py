@@ -21,7 +21,7 @@ class BiVE_Q(Model):
 		self.ent_y = nn.Embedding(self.ent_tot, self.dim)
 		self.ent_z = nn.Embedding(self.ent_tot, self.dim)
 
-		self.rel_s = nn.Embedding(self.rel_tot, self.dim)
+		self.rel_s = nn.Embedding(self.rel_tot, self.dim)	
 		self.rel_x = nn.Embedding(self.rel_tot, self.dim)
 		self.rel_y = nn.Embedding(self.rel_tot, self.dim)
 		self.rel_z = nn.Embedding(self.rel_tot, self.dim)
